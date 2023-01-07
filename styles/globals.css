@@ -1,26 +1,19 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btm-con-cal {
+    background: linear-gradient(90deg, #DADADA 1.09%, #EEEEEE 5.07%, #EEEEEE 42.93%, #EEEEEE 93.45%, #DADADA 101.5%);
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.btm-con-farm {
+    background: linear-gradient(90deg, #524B27 1.09%, #FFD976 5.07%, #FFD976 51.09%, #FFD976 93.45%, #524B27 101.5%);
 }
 
-* {
-  box-sizing: border-box;
+.bg-con-farm {
+    background: linear-gradient(180deg, #FFE296 82.81%, #F9BD21 100%);
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.page-transition {
+    @apply transition-all;
 }
